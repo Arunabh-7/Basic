@@ -24,4 +24,6 @@ public class Post {
     private  String description;
     @Column(name = "content", nullable = false)
     private  String content;
+    @Column(name = "content", nullable = false)
+    private  String body;
 }
